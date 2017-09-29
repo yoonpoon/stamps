@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'contentful', github: 'contentful/contentful.rb', tag: 'v1.2.2'
+
+gem 'contentful_model', github: 'sebbean/contentful_model', branch: 'patch-1'
+gem 'contentful_rails', github: 'sebbean/contentful_rails', branch: 'patch-1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
