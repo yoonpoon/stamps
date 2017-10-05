@@ -3,5 +3,6 @@ class Page < ContentfulModel::Base
 
   return_nil_for_empty  :title,
                         :images,
-                        :date
+                        :date,
+                        :description
 end

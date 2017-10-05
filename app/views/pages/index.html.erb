@@ -1,1 +1,6 @@
-<h1> hello world </h1>
+<% @pages.each do |page| %>
+  <%= page.title %>
+  <%= page.date %>
+  <%= page.description %>
+  <%= image_tag page.images.first.image_url(width: 300, height: 300, format: 'jpg', fl: 'progressive') %>
+<% end %>

@@ -1,7 +1,0 @@
-{
-  "name": "stamps",
-  "private": true,
-  "dependencies": {
-    "basscss": "^8.0.2"
-  }
-}
