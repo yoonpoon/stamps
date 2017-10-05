@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'executive55_regular';
+  src: url(/assets/executive-55regular-webfont-e9b7437782a2de99fc40497da7b6384235e6afbcc186ce15fa8ce204f98bf3b0.eot);
+  src: url(/assets/executive-55regular-webfont-e9b7437782a2de99fc40497da7b6384235e6afbcc186ce15fa8ce204f98bf3b0.eot?#iefix) format("embedded-opentype"), url(/assets/executive-55regular-webfont-f8a746df48777b9c73f7521a717bbca3f10dfc8b5f38c2e57bb6883bec832bd4.woff2) format("woff2"), url(/assets/executive-55regular-webfont-6eb2d06ce44b9bd7dfe5e423d0f905260cd1bf847354b345787486f5e11bbc74.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'executive45_light';
+  src: url(/assets/executive-45light-webfont-3c83da3eab960a549faa21276c71b94248bdbdb579c317c40430eb710c2733a6.woff2) format("woff2"), url(/assets/executive-45light-webfont-a97a51e6807d90514f9675fbc995dfc25332a99428d837e120ac43732257abf0.woff) format("woff"), url(/fonts/executive-45light-webfont.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+/* line 22, /Users/Albert/code/yoonpoon/stamps/app/assets/stylesheets/global.scss */
+html {
+  font-family: 'arial';
+  font-size: 18px;
+}
+
+/* line 28, /Users/Albert/code/yoonpoon/stamps/app/assets/stylesheets/global.scss */
+body {
+  padding: 3em;
+  padding-top: 1.5em;
+}
+
+/* line 33, /Users/Albert/code/yoonpoon/stamps/app/assets/stylesheets/global.scss */
+img {
+  width: 96.5%;
+  min-height: 100%;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+ @import "global";
+
+
+

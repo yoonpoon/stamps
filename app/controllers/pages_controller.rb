@@ -1,6 +1,10 @@
 class PagesController < ApplicationController
   def index
-    # @nav = Nav.all.load
-    # @pages = @nav.pages
+    @nav = Nav.all.load.first
+    @pages = @nav.pages
+  end
+
+  def show
+
   end
 end
